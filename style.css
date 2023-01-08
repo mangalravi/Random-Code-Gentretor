@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+}
+input:focus-visible{
+    outline: 0;
+}
+.main{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    min-height: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px black;
+    background: aquamarine;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+#pass-box{
+    width: 90%;
+    display: block;
+    background-color: rgba(116, 126, 216, 0.719);
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: red;
+    font-size: 20px;
+}
+label{
+    user-select:none;
+    
+}
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: blueviolet;
+    color: blue;
+}
+#total-char{
+    width: 4rem;
+    font-size: 1rem;
+
+}
+#total-char:hover{
+    font-size: 2rem;
+    background-color: greenyellow;
+    color: tomato;
+}
